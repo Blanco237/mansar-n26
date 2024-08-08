@@ -1,0 +1,63 @@
+.body {
+  @apply w-full h-full flex flex-col overflow-y-auto;
+}
+
+.body > div {
+    @apply w-full py-6 px-8;
+}
+
+.infos.infos {
+    @apply flex flex-col items-start gap-8 pb-12;
+}
+
+.buttons {
+    @apply flex items-center w-full gap-6 justify-between;
+}
+
+.buttons > button {
+    @apply w-1/2 rounded font-semibold py-4 px-6 text-nowrap;
+}
+
+.buttons > button:first-child {
+    @apply bg-dark text-white;
+}
+
+.buttons > button:last-child {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.actions {
+    @apply flex flex-col gap-8 bg-brown;
+}
+
+.action {
+    @apply flex justify-between items-center gap-4 rounded-md py-3 px-4 cursor-pointer bg-white transition-all duration-300;
+}
+
+.action:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.iconContainer {
+    @apply size-12 flex items-center justify-center bg-dark rounded;
+}
+
+.icon {
+    @apply size-7 flex items-center justify-center rounded-full bg-black text-white;
+}
+
+.text {
+    @apply flex flex-col;
+}
+
+.text > h5 {
+    @apply font-semibold;
+}
+
+.text > p {
+    @apply text-gray-400 text-sm;
+}
+
+.chevron {
+    @apply ml-auto;
+}

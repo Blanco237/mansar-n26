@@ -1,0 +1,20 @@
+.body {
+    @apply w-full flex flex-col py-8 px-6 rounded-lg border-2 border-gray-300 items-center gap-5;
+}
+
+.body > h3 {
+    @apply text-lg text-dark font-semibold;
+}
+
+.body > h1 {
+    @apply text-7xl text-dark font-bold;
+}
+
+.body > p {
+    @apply text-base text-gray-300 text-center;
+}
+
+.body > button {
+    @apply font-semibold px-8 py-4 rounded-md;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}

@@ -1,0 +1,48 @@
+.body {
+    @apply flex flex-col items-start gap-4;
+}
+
+.body > h4 {
+    @apply text-lg font-medium;
+}
+
+.cards {
+    @apply flex items-start gap-8 flex-wrap w-full;
+}
+
+.card {
+    @apply flex flex-col cursor-pointer justify-between rounded-md border-2 border-gray-300 py-4 px-5 w-[160px] h-[250px] transition-all duration-300;
+}
+
+.card:hover {
+    @apply border-dark;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.top {
+    @apply flex flex-col gap-3;
+}
+
+.top .icon {
+    @apply size-9 flex items-center justify-center text-dark rounded bg-gray-300;
+}
+
+.top > h5 {
+    @apply font-semibold text-base;
+}
+
+.top > p {
+    @apply text-sm text-gray-300;
+}
+
+.details {
+    @apply mt-2 flex justify-between items-start gap-4;
+}
+
+.details > p {
+    @apply uppercase font-semibold text-xs;
+}
+
+.details > h3 {
+    @apply text-3xl font-bold uppercase;
+}

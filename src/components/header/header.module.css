@@ -1,0 +1,40 @@
+.body {
+    @apply flex items-center justify-between;
+}
+
+.links {
+    @apply flex items-center gap-8;
+}
+
+.link {
+    @apply font-semibold text-base underline underline-offset-[6px];
+}
+
+.link.disabled {
+    text-decoration: none;
+    @apply pointer-events-none text-gray-400;
+}
+
+.details {
+    @apply flex items-start gap-6;
+}
+
+.detail {
+    @apply flex items-start gap-3;
+}
+
+.icon {
+    @apply size-11 rounded-md bg-gray-200 flex items-center justify-center;
+}
+
+.text {
+    @apply flex flex-col items-start;
+}
+
+.text > p {
+    @apply text-sm text-gray-400;
+}
+
+.text > h3 {
+    @apply font-bold text-xl;
+}

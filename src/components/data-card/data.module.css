@@ -1,0 +1,28 @@
+.body {
+    @apply border-2 border-mpurple rounded-xl py-6 px-6 flex flex-col gap-[5px];
+    width: calc(33% - 12px);
+}
+
+.body > h6 {
+    @apply font-medium;
+}
+
+.details {
+    @apply flex justify-between items-end gap-2;
+}
+
+.details > h4 {
+    @apply text-2xl font-bold text-dark;
+}
+
+.change {
+    @apply p-1 rounded font-medium;
+}
+
+.change.positive {
+    @apply bg-success-bg text-success font-semibold;
+}
+
+.change.negative {
+    @apply bg-mpurple
+}

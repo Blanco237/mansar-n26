@@ -1,0 +1,19 @@
+.body {
+    @apply w-full min-h-[350px] relative flex flex-col gap-7 items-start;
+}
+
+.text {
+    @apply flex flex-col gap-3;
+}
+
+.text > p {
+    @apply text-sm text-gray-600 font-medium;
+}
+
+.text > h2 {
+    @apply text-5xl font-bold;
+}
+
+.body > canvas {
+    @apply !w-full 
+}
